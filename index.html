@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css" media="screen" title="no title" charset="utf-8">
+    <script src='js/jquery-3.2.0.js'></script>
+    <script src='js/scripts.js'></script>
+    <title>Stress Test</title>
+  </head>
+  <body>
+    <div class='form-group'>
+      <form id='stressForm'>
+        <div id='warnings'>
+          <p>Are you experiencing any of the following?</p>
+          <input type='checkbox' name='warningSign' value='1'> Loss of sleep <br>
+          <input type='checkbox' name='warningSign' value='1'> Feeling overwhelmed <br>
+          <input type='checkbox' name='warningSign' value='1'> Mood swings <br>
+        </div>
+        <div id='symptoms'>
+          <p>Are you experiencing any of these symptoms?</p>
+          <input type='checkbox' name='symptom' value='1'> Hypertension <br>
+          <input type='checkbox' name='symptom' value='1'> Anxiety <br>
+          <input type='checkbox' name='symptom' value='1'> Weight gain <br>
+        </div>
+        <div id='copingMethod'>
+          <p>Do you use any of these coping methods?</p>
+          <input type='checkbox' name='method' value='1'> Pet a cat <br>
+          <input type='checkbox' name='method' value='1'> Meditate <br>
+          <input type='checkbox' name='method' value='1'> Manage your time <br>
+        </div>
+        <button type='submit'>Submit</button>
+      </form>
+    </div>
+    <div>
+      <h3 id='answers'>Test</h3>
+    </div>
+  </body>
+</html>
